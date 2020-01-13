@@ -695,7 +695,8 @@ $teal: lighten(#00BCD4, 3%);
 						color: #fff;
 
 						span:before {
-							color: #e27689;
+							/* color: #e27689; */
+							color: $pink;
 						}
 					}
 				}

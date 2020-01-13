@@ -1261,7 +1261,8 @@ button,
         box-shadow: inset 0 0 0.25em 0 rgba(0, 0, 0, 0.125);
         color: #fff; }
         #nav ul li a.active span:before {
-          color: #e27689; }
+          /* color: #e27689; */
+          color: #FF77A9; }
 
 /* Footer */
 #footer {
