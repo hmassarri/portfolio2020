@@ -530,7 +530,7 @@ $teal: lighten(#00BCD4, 3%);
 		@include vendor('transition', 'background-color 0.35s ease-in-out');
 
 		&:hover {
-			color: $black !important;
+			color: $white !important;
 			background-color: $blue;
 		}
 

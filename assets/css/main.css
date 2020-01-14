@@ -1110,7 +1110,7 @@ button,
   input[type="reset"]:hover,
   button:hover,
   .button:hover {
-    color: #000000 !important;
+    color: #FFFFFF !important;
     background-color: #0091FF; }
   input[type="button"]:active,
   input[type="submit"]:active,
