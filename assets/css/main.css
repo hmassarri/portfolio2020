@@ -1291,7 +1291,7 @@ button,
   #main > section {
     margin: 0;
     overflow: hidden;
-    padding: 4em 0;
+    padding: 2em 0 4em 0;
     text-align: center; }
     #main > section.dark {
       color: #ddd;
