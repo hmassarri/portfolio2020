@@ -443,7 +443,7 @@ $teal: lighten(#00BCD4, 3%);
 			@include vendor('transition', 'all 0.35s ease-in-out');
 
 			&:focus {
-				box-shadow: 0 0 2px 1px #8ebebc;
+				box-shadow: 0 0 2px 1px $pink;
 				background: #fff;
 			}
 		}
@@ -535,8 +535,8 @@ $teal: lighten(#00BCD4, 3%);
 		@include vendor('transition', 'background-color 0.35s ease-in-out');
 
 		&:hover {
-			color: $white !important;
-			background-color: $blue;
+			color: $black !important;
+			background-color: $pink;
 		}
 
 		&:active {

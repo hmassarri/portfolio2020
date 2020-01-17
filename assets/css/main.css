@@ -1051,7 +1051,7 @@ form textarea {
   form input[type="password"]:focus,
   form select:focus,
   form textarea:focus {
-    box-shadow: 0 0 2px 1px #8ebebc;
+    box-shadow: 0 0 2px 1px #FF77A9;
     background: #fff; }
 form input[type="text"],
 form input[type="email"],
@@ -1114,8 +1114,8 @@ button,
   input[type="reset"]:hover,
   button:hover,
   .button:hover {
-    color: #FFFFFF !important;
-    background-color: #0091FF; }
+    color: #000000 !important;
+    background-color: #FF77A9; }
   input[type="button"]:active,
   input[type="submit"]:active,
   input[type="reset"]:active,
