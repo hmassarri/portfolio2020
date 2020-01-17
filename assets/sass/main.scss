@@ -605,6 +605,8 @@ $teal: lighten(#00BCD4, 3%);
 		text-align: right;
 		top: 0;
 		width: 375px;
+		border-right: 4px dashed transparent;
+		border-image: url('../../images/checkerboard-pink-small.png') 8 repeat;
 
 		.top {
 			@include vendor('flex-grow', '1');

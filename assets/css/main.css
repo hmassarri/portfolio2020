@@ -1182,7 +1182,9 @@ button,
   position: fixed;
   text-align: right;
   top: 0;
-  width: 375px; }
+  width: 375px;
+  border-right: 4px dashed transparent;
+  border-image: url("../../images/checkerboard-pink-small.png") 8 repeat; }
   #header .top {
     -moz-flex-grow: 1;
     -webkit-flex-grow: 1;
