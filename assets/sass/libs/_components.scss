@@ -1,0 +1,34 @@
+// Colors.
+$pink: #FF77A9;
+$white: #FFFFFF;
+$black: #000000;
+
+$buttercream: #FFEDBA;
+$blue: #0091FF;
+$blue-purple: #3F51B5;
+$purple: darken(#6236FF, 3%);
+$red: #A61C1C;
+$teal: lighten(#00BCD4, 3%);
+
+
+
+.card {
+  width: 400px;
+  height: 400px;
+  background-color: $white;
+
+  .card-title {
+    align-self: center;
+    font-size: 1.75rem;
+    margin: 0;
+  }
+
+  p {
+    align-self: center;
+    font-size: 1rem;
+    color: lighten($black, 40%);
+    margin: 0;
+    padding: 0;
+  }
+
+}
