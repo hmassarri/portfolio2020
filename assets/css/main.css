@@ -2,19 +2,20 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,600");
 .card {
   width: 400px;
-  height: 400px;
+  height: auto;
   background-color: #FFFFFF;
   box-shadow: 1px 14px 10px 2px gray; }
   .card .card-title {
     align-self: center;
     font-size: 1.75rem;
-    margin: 0; }
+    margin: 0;
+    padding: 0 10px; }
   .card p {
     align-self: center;
     font-size: 1rem;
     color: #666666;
     margin: 0;
-    padding: 0; }
+    padding: 0 10px; }
   .card .card-footer {
     background-color: #000000;
     height: auto;

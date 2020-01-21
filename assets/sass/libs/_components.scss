@@ -14,7 +14,7 @@ $teal: lighten(#00BCD4, 3%);
 
 .card {
   width: 400px;
-  height: 400px;
+  height: auto;
   background-color: $white;
   box-shadow: 1px 14px 10px 2px lighten($black, 50%);
 
@@ -22,6 +22,7 @@ $teal: lighten(#00BCD4, 3%);
     align-self: center;
     font-size: 1.75rem;
     margin: 0;
+    padding: 0 10px;
   }
 
   p {
@@ -29,7 +30,7 @@ $teal: lighten(#00BCD4, 3%);
     font-size: 1rem;
     color: lighten($black, 40%);
     margin: 0;
-    padding: 0;
+    padding: 0 10px;
   }
 
   .card-footer {
