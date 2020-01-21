@@ -16,6 +16,7 @@ $teal: lighten(#00BCD4, 3%);
   width: 400px;
   height: 400px;
   background-color: $white;
+  box-shadow: 1px 14px 10px 2px lighten($black, 50%);
 
   .card-title {
     align-self: center;
@@ -29,6 +30,15 @@ $teal: lighten(#00BCD4, 3%);
     color: lighten($black, 40%);
     margin: 0;
     padding: 0;
+  }
+
+  .card-footer {
+    background-color: $black;
+    height: auto;
+    width: 100%;
+    font-size: .8rem;
+    color: darken($white, 40%);
+    text-transform: uppercase;
   }
 
 }

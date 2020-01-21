@@ -3,7 +3,8 @@
 .card {
   width: 400px;
   height: 400px;
-  background-color: #FFFFFF; }
+  background-color: #FFFFFF;
+  box-shadow: 1px 14px 10px 2px gray; }
   .card .card-title {
     align-self: center;
     font-size: 1.75rem;
@@ -14,6 +15,13 @@
     color: #666666;
     margin: 0;
     padding: 0; }
+  .card .card-footer {
+    background-color: #000000;
+    height: auto;
+    width: 100%;
+    font-size: .8rem;
+    color: #999999;
+    text-transform: uppercase; }
 
 /*
 	Prologue by HTML5 UP
