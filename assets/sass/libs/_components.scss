@@ -37,9 +37,15 @@ $teal: lighten(#00BCD4, 3%);
     background-color: $black;
     height: auto;
     width: 100%;
-    font-size: .8rem;
+    font-size: 1rem;
     color: darken($white, 40%);
+    font-weight: 400;
     text-transform: uppercase;
+
+    &:hover {
+      background-color: $pink;
+      color: $black;
+    }
   }
 
 }
