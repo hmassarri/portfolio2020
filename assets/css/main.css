@@ -4,7 +4,8 @@
   width: 400px;
   height: auto;
   background-color: #FFFFFF;
-  box-shadow: 1px 14px 10px 2px gray; }
+  box-shadow: 1px 14px 10px 2px gray;
+  margin-bottom: 20px; }
   .card .card-title {
     align-self: center;
     font-size: 1.75rem;
@@ -27,6 +28,38 @@
     .card .card-footer:hover {
       background-color: #FF77A9;
       color: #000000; }
+
+.btn-group {
+  /* Clear floats (clearfix hack) */ }
+  .btn-group button {
+    width: 50%;
+    display: inline-block;
+    color: #fff !important;
+    text-decoration: none;
+    padding: 2em;
+    background-color: #000000;
+    border: 0;
+    cursor: pointer;
+    -moz-transition: background-color 0.35s ease-in-out;
+    -webkit-transition: background-color 0.35s ease-in-out;
+    -ms-transition: background-color 0.35s ease-in-out;
+    transition: background-color 0.35s ease-in-out;
+    cursor: pointer;
+    float: left;
+    font-size: 1em;
+    /* Add a background color on hover */ }
+    .btn-group button:not(:last-child) {
+      border-right: none;
+      /* Prevent double borders */ }
+    .btn-group button:hover {
+      color: #000000;
+      background-color: #FF77A9; }
+  .btn-group:after {
+    content: "";
+    clear: both;
+    display: table; }
+  .btn-group a:hover {
+    color: #000000; }
 
 /*
 	Prologue by HTML5 UP

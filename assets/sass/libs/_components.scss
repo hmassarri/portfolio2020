@@ -2,7 +2,6 @@
 $pink: #FF77A9;
 $white: #FFFFFF;
 $black: #000000;
-
 $buttercream: #FFEDBA;
 $blue: #0091FF;
 $blue-purple: #3F51B5;
@@ -10,13 +9,12 @@ $purple: darken(#6236FF, 3%);
 $red: #A61C1C;
 $teal: lighten(#00BCD4, 3%);
 
-
-
 .card {
   width: 400px;
   height: auto;
   background-color: $white;
   box-shadow: 1px 14px 10px 2px lighten($black, 50%);
+  margin-bottom: 20px;
 
   .card-title {
     align-self: center;
@@ -47,5 +45,45 @@ $teal: lighten(#00BCD4, 3%);
       color: $black;
     }
   }
+}
 
+.btn-group {
+  button {
+    width: 50%;
+    display: inline-block;
+    color: #fff !important;
+    text-decoration: none;
+    padding: 2em;
+    background-color: #000000;
+    border: 0;
+    cursor: pointer;
+    -moz-transition: background-color 0.35s ease-in-out;
+    -webkit-transition: background-color 0.35s ease-in-out;
+    -ms-transition: background-color 0.35s ease-in-out;
+    transition: background-color 0.35s ease-in-out;
+    cursor: pointer;
+    float: left;
+    font-size: 1em;
+
+    &:not(:last-child) {
+      border-right: none;
+      /* Prevent double borders */
+    }
+
+    /* Add a background color on hover */
+    &:hover {
+      color: $black;
+      background-color: $pink;
+    }
+  }
+  /* Clear floats (clearfix hack) */
+  &:after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  a:hover {
+    color: $black;
+  }
 }
