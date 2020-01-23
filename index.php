@@ -1,3 +1,4 @@
+<?php include 'includes/env.php'; ?>
 <!DOCTYPE HTML>
 <!--
 	Prologue by HTML5 UP
@@ -6,12 +7,7 @@
 -->
 <html>
 
-<head>
-	<title>Hugo M. / Portfolio 2020</title>
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-	<link rel="stylesheet" href="assets/css/main.css" />
-</head>
+<?php include 'includes/head.php'; ?>
 
 <body class="is-preload">
 
@@ -43,24 +39,8 @@
 	</div>
 
 	<!-- Footer -->
-	<div id="footer">
-
-		<!-- Copyright -->
-		<ul class="copyright">
-			<li>&copy; Copyright &copy; 1999-2020 Hugo M. / hugomassarri.com. All rights reserved.</li>
-			<li></li>
-		</ul>
-
-	</div>
-
-	<!-- Scripts -->
-	<script src="assets/js/jquery.min.js"></script>
-	<script src="assets/js/jquery.scrolly.min.js"></script>
-	<script src="assets/js/jquery.scrollex.min.js"></script>
-	<script src="assets/js/browser.min.js"></script>
-	<script src="assets/js/breakpoints.min.js"></script>
-	<script src="assets/js/util.js"></script>
-	<script src="assets/js/main.js"></script>
+	<?php include 'includes/footer.php'; ?>
+	<?php include 'includes/js.php'; ?>
 
 </body>
 
