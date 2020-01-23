@@ -63,7 +63,8 @@ $teal: lighten(#00BCD4, 3%);
     transition: background-color 0.35s ease-in-out;
     cursor: pointer;
     float: left;
-    font-size: 1em;
+    font-size: .8em;
+    font-weight: 0;
 
     &:not(:last-child) {
       border-right: none;

@@ -857,7 +857,8 @@ $teal: lighten(#00BCD4, 3%);
 			}
 
 			&.two {
-				background-color: #f5fafa;
+				padding: 6em 0;
+				background-color: lighten($black, 97%);
 			}
 
 			&.three {
