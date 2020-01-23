@@ -75,6 +75,10 @@ $teal: lighten(#00BCD4, 3%);
       color: $black;
       background-color: $pink;
     }
+
+    span {
+      margin: 0 20px;
+    }
   }
   /* Clear floats (clearfix hack) */
   &:after {
@@ -86,4 +90,5 @@ $teal: lighten(#00BCD4, 3%);
   a:hover {
     color: $black;
   }
+
 }

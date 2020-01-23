@@ -54,6 +54,8 @@
     .btn-group button:hover {
       color: #000000;
       background-color: #FF77A9; }
+    .btn-group button span {
+      margin: 0 20px; }
   .btn-group:after {
     content: "";
     clear: both;
