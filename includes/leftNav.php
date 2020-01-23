@@ -13,11 +13,11 @@
     <!-- Nav -->
     <nav id="nav">
       <ul>
-        <li><a href="index.html" id="top-link"><span class="icon solid fa-home">Intro</span></a></li>
-        <li><a href="portfolio-home.html" id="portfolio-link"><span class="icon solid fa-th">Portfolio</span></a></li>
-        <li><a href="process.html" id="process-link"><span class="icon solid fa-cogs">Process</span></a></li>
-        <li><a href="aboutme.html" id="about-link"><span class="icon solid fa-user">About Me</span></a></li>
-        <li><a href="contact.html" id="contact-link"><span class="icon solid fa-envelope">Contact</span></a></li>
+        <li><a href="<?php echo $root ?>index.php" id="top-link"><span class="icon solid fa-home">Intro</span></a></li>
+        <li><a href="<?php echo $root ?>portfolio-home.html" id="portfolio-link"><span class="icon solid fa-th">Portfolio</span></a></li>
+        <li><a href="<?php echo $root ?>process.html" id="process-link"><span class="icon solid fa-cogs">Process</span></a></li>
+        <li><a href="<?php echo $root ?>aboutme.html" id="about-link"><span class="icon solid fa-user">About Me</span></a></li>
+        <li><a href="<?php echo $root ?>contact.html" id="contact-link"><span class="icon solid fa-envelope">Contact</span></a></li>
       </ul>
     </nav>
 
