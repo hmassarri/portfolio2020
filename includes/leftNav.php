@@ -5,6 +5,11 @@
   }
   $currentPage = pageName();
   //echo $currentPage;
+
+  $url = ($_SERVER["SCRIPT_NAME"]);
+  $items = explode('/', $url);
+  $portfolioFolder = $items[sizeof($items) - 2];
+
 ?>
 
 <!-- Header -->
@@ -22,11 +27,11 @@
     <!-- Nav -->
     <nav id="nav">
       <ul>
-        <li><a href="<?php echo $root . index.php ?>" id="top-link" class="<?php echo $currentPage == 'index.php' ? 'active active-locked':NULL ?>"><span class="icon solid fa-home">Intro</span></a></li>
-        <li><a href="<?php echo $root . portfolio-home.html ?>" id="portfolio-link" class="<?php echo $currentPage == 'portfolio-home.html' ? 'active active-locked':NULL ?>"><span class="icon solid fa-th">Portfolio</span></a></li>
-        <li><a href="<?php echo $root . process.html ?>" id="process-link" class="<?php echo $currentPage == 'process.html' ? 'active active-locked':NULL ?>"><span class="icon solid fa-cogs">Process</span></a></li>
-        <li><a href="<?php echo $root . aboutme.html ?>" id="about-link" class="<?php echo $currentPage == 'aboutme.html' ? 'active active-locked':NULL ?>"><span class="icon solid fa-user">About Me</span></a></li>
-        <li><a href="<?php echo $root . contact.html ?>" id="contact-link" class="<?php echo $currentPage == 'contact.html' ? 'active active-locked':NULL ?>"><span class="icon solid fa-envelope">Contact</span></a></li>
+        <li><a href="<?php echo $root . 'index.php' ?>" id="top-link" class="<?php echo $currentPage == 'index.php' ? 'active active-locked':NULL ?>"><span class="icon solid fa-home">Intro</span></a></li>
+        <li><a href="<?php echo $root . 'portfolio-home.html' ?>" id="portfolio-link" class="<?php echo $currentPage == 'portfolio-home.html' || $portfolioFolder ? 'active active-locked':NULL ?>"><span class="icon solid fa-th">Portfolio</span></a></li>
+        <li><a href="<?php echo $root . 'process.html' ?>" id="process-link" class="<?php echo $currentPage == 'process.html' ? 'active active-locked':NULL ?>"><span class="icon solid fa-cogs">Process</span></a></li>
+        <li><a href="<?php echo $root . 'aboutme.html' ?>" id="about-link" class="<?php echo $currentPage == 'aboutme.html' ? 'active active-locked':NULL ?>"><span class="icon solid fa-user">About Me</span></a></li>
+        <li><a href="<?php echo $root . 'contact.html' ?>" id="contact-link" class="<?php echo $currentPage == 'contact.html' ? 'active active-locked':NULL ?>"><span class="icon solid fa-envelope">Contact</span></a></li>
       </ul>
     </nav>
 
