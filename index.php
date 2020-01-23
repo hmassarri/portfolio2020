@@ -15,38 +15,8 @@
 
 <body class="is-preload">
 
-	<!-- Header -->
-	<div id="header">
-
-		<div class="top">
-
-			<!-- Logo -->
-			<div id="logo">
-				<span class="image avatar48"><img src="images/checkerboard-pink.png" alt="" /></span>
-				<h1 id="title">Hugo Massarri</h1>
-				<p>UIX Designer + Developer</p>
-			</div>
-
-			<!-- Nav -->
-			<?php include 'includes/leftNav.php'; ?>
-			
-
-		</div>
-
-		<div class="bottom">
-
-			<!-- Social Icons -->
-			<ul class="icons">
-				<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-				<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-				<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
-				<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
-				<li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
-			</ul>
-
-		</div>
-
-	</div>
+	<!-- leftNav -->
+	<?php include 'includes/leftNav.php'; ?>
 
 	<!-- Main -->
 	<div id="main">
