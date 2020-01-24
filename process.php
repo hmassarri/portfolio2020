@@ -1,3 +1,4 @@
+<?php include 'includes/env.php'; ?>
 <!DOCTYPE HTML>
 <!--
 	Prologue by HTML5 UP
@@ -5,55 +6,11 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
-
-<head>
-	<title>Hugo M. / Portfolio 2020</title>
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-	<link rel="stylesheet" href="assets/css/main.css" />
-</head>
+<html>
+<?php include 'includes/head.php'; ?>
 
 <body class="is-preload">
-
-	<!-- Header -->
-	<div id="header">
-
-		<div class="top">
-
-			<!-- Logo -->
-			<div id="logo">
-				<span class="image avatar48"><img src="images/checkerboard-pink.png" alt="" /></span>
-				<h1 id="title">Hugo Massarri</h1>
-				<p>UIX Designer + Developer</p>
-			</div>
-
-			<!-- Nav -->
-			<nav id="nav">
-				<ul>
-					<li><a href="index.html" id="top-link"><span class="icon solid fa-home">Intro</span></a></li>
-					<li><a href="portfolio-home.html" id="portfolio-link"><span class="icon solid fa-th">Portfolio</span></a></li>
-					<li><a href="process.html" id="process-link" class="active active-locked"><span class="icon solid fa-cogs">Process</span></a></li>
-					<li><a href="aboutme.html" id="about-link"><span class="icon solid fa-user">About Me</span></a></li>
-					<li><a href="contact.html" id="contact-link"><span class="icon solid fa-envelope">Contact</span></a></li>
-				</ul>
-			</nav>
-
-		</div>
-
-		<div class="bottom">
-
-			<!-- Social Icons -->
-			<ul class="icons">
-				<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-				<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-				<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
-				<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
-				<li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
-			</ul>
-
-		</div>
-
-	</div>
+<?php include 'includes/leftNav.php'; ?>
 
 	<!-- Main -->
 	<div id="main">
@@ -68,7 +25,7 @@
 
 				<p>High level of the UI and UX processes that I use on projects.</p>
 				<p>&nbsp;</p>
-				
+
 				<a href="#" class="image"><img src="images/process/0-UXprocess.png" alt="" /></a>
 
 
@@ -287,24 +244,9 @@
 	</div>
 
 	<!-- Footer -->
-	<div id="footer">
-
-		<!-- Copyright -->
-		<ul class="copyright">
-			<li>&copy; Copyright &copy; 1999-2020 Hugo M. / hugomassarri.com. All rights reserved.</li>
-			<li></li>
-		</ul>
-
-	</div>
-
-	<!-- Scripts -->
-	<script src="assets/js/jquery.min.js"></script>
-	<script src="assets/js/jquery.scrolly.min.js"></script>
-	<script src="assets/js/jquery.scrollex.min.js"></script>
-	<script src="assets/js/browser.min.js"></script>
-	<script src="assets/js/breakpoints.min.js"></script>
-	<script src="assets/js/util.js"></script>
-	<script src="assets/js/main.js"></script>
+	<!-- Footer -->
+  <?php include 'includes/footer.php'; ?>
+  <?php include 'includes/js.php'; ?>
 
 </body>
 

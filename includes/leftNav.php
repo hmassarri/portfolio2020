@@ -32,9 +32,9 @@
       <ul>
         <li><a href="<?php echo $root . 'index.php' ?>" id="top-link" class="<?php echo $currentPage == 'index.php' ? 'active':NULL ?>"><span class="icon solid fa-home">Intro</span></a></li>
         <li><a href="<?php echo $root . 'portfolio.php' ?>" id="portfolio-link" class="<?php echo $folderName == 'portfolio' || $currentPage == 'portfolio.php' ? 'active':NULL ?>"><span class="icon solid fa-th">Portfolio</span></a></li>
-        <li><a href="<?php echo $root . 'process.html' ?>" id="process-link" class="<?php echo $currentPage == 'process.html' ? 'active':NULL ?>"><span class="icon solid fa-cogs">Process</span></a></li>
-        <li><a href="<?php echo $root . 'aboutme.html' ?>" id="about-link" class="<?php echo $currentPage == 'aboutme.html' ? 'active':NULL ?>"><span class="icon solid fa-user">About Me</span></a></li>
-        <li><a href="<?php echo $root . 'contact.html' ?>" id="contact-link" class="<?php echo $currentPage == 'contact.html' ? 'active':NULL ?>"><span class="icon solid fa-envelope">Contact</span></a></li>
+        <li><a href="<?php echo $root . 'process.php' ?>" id="process-link" class="<?php echo $currentPage == 'process.php' ? 'active':NULL ?>"><span class="icon solid fa-cogs">Process</span></a></li>
+        <li><a href="<?php echo $root . 'aboutme.php' ?>" id="about-link" class="<?php echo $currentPage == 'aboutme.php' ? 'active':NULL ?>"><span class="icon solid fa-user">About Me</span></a></li>
+        <li><a href="<?php echo $root . 'contact.php' ?>" id="contact-link" class="<?php echo $currentPage == 'contact.php' ? 'active':NULL ?>"><span class="icon solid fa-envelope">Contact</span></a></li>
       </ul>
     </nav>
 
