@@ -9,9 +9,6 @@
 <html>
 <?php include '../includes/head.php'; ?>
 
-
-
-
 <body class="is-preload">
 
   <?php include '../includes/leftNav.php'; ?>
@@ -75,5 +72,4 @@
   <?php include '../includes/js.php'; ?>
 
 </body>
-
 </html>
