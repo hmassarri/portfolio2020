@@ -57,7 +57,7 @@
     <section>
       <div class="container">
         <div class="btn-group" style="width:100%">
-          <button class="button"><a href="portfolio-home.html"><span class="icon solid fa-arrow-circle-left"></span>Back to Portfolio</a></button>
+          <button class="button"><a href="<?php echo $root . 'portfolio.php'; ?>"><span class="icon solid fa-arrow-circle-left"></span>Back to Portfolio</a></button>
           <button class="button"><a href="#">Next Project<span class="icon solid fa-arrow-circle-right"></span></a></button>
         </div>
       </div>
