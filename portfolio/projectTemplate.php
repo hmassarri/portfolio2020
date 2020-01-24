@@ -17,7 +17,7 @@
     <section>
       <div class="container">
         <header>
-          <h2>Project Name</h2>
+          <h2>Project Template</h2>
         </header>
       </div>
     </section>

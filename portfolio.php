@@ -40,7 +40,7 @@
           </div>
 
           <div class="col-4 col-12-mobile">
-            <a href="portfolio/webfooter.html">
+            <a href="portfolio/projectTemplate.php">
               <div class="card image fit">
                 <article class="item">
                   <img src="https://via.placeholder.com/440x200" alt="" />
@@ -55,7 +55,7 @@
           </div>
 
           <div class="col-4 col-12-mobile">
-            <a href="portfolio/webfooter.html">
+            <a href="portfolio/projectTemplate.php">
               <div class="card image fit">
                 <article class="item">
                   <img src="https://via.placeholder.com/440x200" alt="" />
@@ -77,7 +77,7 @@
         <!-- Row 2 -->
         <div class="row">
           <div class="col-4 col-12-mobile">
-            <a href="portfolio/webfooter.html">
+            <a href="portfolio/projectTemplate.php">
               <div class="card image fit">
                 <article class="item">
                   <img src="images/work/pyke/pyke-2.png" alt="" />
@@ -92,7 +92,7 @@
           </div>
 
           <div class="col-4 col-12-mobile">
-            <a href="portfolio/webfooter.html">
+            <a href="portfolio/projectTemplate.php">
               <div class="card image fit">
                 <article class="item">
                   <img src="https://via.placeholder.com/440x200" alt="" />
@@ -107,7 +107,7 @@
           </div>
 
           <div class="col-4 col-12-mobile">
-            <a href="portfolio/webfooter.html">
+            <a href="portfolio/projectTemplate.php">
               <div class="card image fit">
                 <article class="item">
                   <img src="https://via.placeholder.com/440x200" alt="" />
@@ -130,7 +130,7 @@
         <!-- Row 3 -->
         <div class="row">
           <div class="col-4 col-12-mobile">
-            <a href="portfolio/webfooter.html">
+            <a href="portfolio/projectTemplate.php">
               <div class="card image fit">
                 <article class="item">
                   <img src="images/work/pyke/pyke-2.png" alt="" />
@@ -145,7 +145,7 @@
           </div>
 
           <div class="col-4 col-12-mobile">
-            <a href="portfolio/webfooter.html">
+            <a href="portfolio/projectTemplate.php">
               <div class="card image fit">
                 <article class="item">
                   <img src="https://via.placeholder.com/440x200" alt="" />
@@ -160,7 +160,7 @@
           </div>
 
           <div class="col-4 col-12-mobile">
-            <a href="portfolio/webfooter.html">
+            <a href="portfolio/projectTemplate.php">
               <div class="card image fit">
                 <article class="item">
                   <img src="https://via.placeholder.com/440x200" alt="" />
