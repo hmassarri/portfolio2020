@@ -1,4 +1,3 @@
-<?php include 'env.php'; ?>
 <head>
   <title>Hugo M. / Portfolio 2020</title>
   <meta charset="utf-8" />

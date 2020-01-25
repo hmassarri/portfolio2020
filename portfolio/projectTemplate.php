@@ -1,5 +1,4 @@
 <?php include '../includes/env.php'; ?>
-
 <!DOCTYPE HTML>
 <!--
 	Prologue by HTML5 UP
@@ -9,12 +8,8 @@
 <html>
 <?php include '../includes/head.php'; ?>
 
-
-
-
 <body class="is-preload">
-
-  <?php include '../includes/leftNav.php'; ?>
+<?php include '../includes/leftNav.php'; ?>
 
   <!-- Main -->
   <div id="main">
@@ -22,7 +17,7 @@
     <section>
       <div class="container">
         <header>
-          <h2>Project Name</h2>
+          <h2>Project Template</h2>
         </header>
       </div>
     </section>
@@ -62,8 +57,8 @@
     <section>
       <div class="container">
         <div class="btn-group" style="width:100%">
-          <button class="button"><a href="portfolio-home.html">Back to Portfolio</a></button>
-          <button class="button"><a href="#">Next Project</a></button>
+          <button class="button"><a href="<?php echo $root . 'portfolio.php'; ?>"><span class="icon solid fa-arrow-circle-left"></span>Back to Portfolio</a></button>
+          <button class="button"><a href="#">Next Project<span class="icon solid fa-arrow-circle-right"></span></a></button>
         </div>
       </div>
     </section>
@@ -71,6 +66,7 @@
   </div>
   <!-- /main -->
 
+  <!-- Footer -->
   <?php include '../includes/footer.php'; ?>
   <?php include '../includes/js.php'; ?>
 
