@@ -24,7 +24,7 @@
 
         <!-- Row 1 -->
         <div class="row">
-          <div class="col-4 col-12-mobile">
+          <div class="col-4 col-12-narrower col-12-mobile">
             <a href="portfolio/pykeProject.php">
               <div class="card image fit">
                 <article class="item">
@@ -39,7 +39,7 @@
             </a>
           </div>
 
-          <div class="col-4 col-12-mobile">
+          <div class="col-4 col-12-narrower col-12-mobile">
             <a href="portfolio/projectTemplate.php">
               <div class="card image fit">
                 <article class="item">
@@ -54,7 +54,7 @@
             </a>
           </div>
 
-          <div class="col-4 col-12-mobile">
+          <div class="col-4 col-12-narrower col-12-mobile">
             <a href="portfolio/projectTemplate.php">
               <div class="card image fit">
                 <article class="item">
@@ -76,7 +76,7 @@
 
         <!-- Row 2 -->
         <div class="row">
-          <div class="col-4 col-12-mobile">
+          <div class="col-4 col-12-narrower col-12-mobile">
             <a href="portfolio/projectTemplate.php">
               <div class="card image fit">
                 <article class="item">
@@ -91,7 +91,7 @@
             </a>
           </div>
 
-          <div class="col-4 col-12-mobile">
+          <div class="col-4 col-12-narrower col-12-mobile">
             <a href="portfolio/projectTemplate.php">
               <div class="card image fit">
                 <article class="item">
@@ -106,7 +106,7 @@
             </a>
           </div>
 
-          <div class="col-4 col-12-mobile">
+          <div class="col-4 col-12-narrower col-12-mobile">
             <a href="portfolio/projectTemplate.php">
               <div class="card image fit">
                 <article class="item">
@@ -129,7 +129,7 @@
 
         <!-- Row 3 -->
         <div class="row">
-          <div class="col-4 col-12-mobile">
+          <div class="col-4 col-12-narrower col-12-mobile">
             <a href="portfolio/projectTemplate.php">
               <div class="card image fit">
                 <article class="item">
@@ -144,7 +144,7 @@
             </a>
           </div>
 
-          <div class="col-4 col-12-mobile">
+          <div class="col-4 col-12-narrower col-12-mobile">
             <a href="portfolio/projectTemplate.php">
               <div class="card image fit">
                 <article class="item">
@@ -159,7 +159,7 @@
             </a>
           </div>
 
-          <div class="col-4 col-12-mobile">
+          <div class="col-4 col-12-narrower col-12-mobile">
             <a href="portfolio/projectTemplate.php">
               <div class="card image fit">
                 <article class="item">

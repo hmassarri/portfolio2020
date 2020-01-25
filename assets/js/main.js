@@ -27,6 +27,7 @@
 		});
 
 	// Nav.
+	/*
 		var $nav_a = $nav.find('a');
 
 		$nav_a
@@ -93,9 +94,9 @@
 					});
 
 			});
-
+	*/
 	// Scrolly.
-		$('.scrolly').scrolly();
+	// $('.scrolly').scrolly();
 
 	// Header (narrower + mobile).
 
