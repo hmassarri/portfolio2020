@@ -2,6 +2,6 @@
 <div id="footer">
   <!-- Copyright -->
   <ul class="copyright">
-    <li>&copy; Copyright &copy; 1999-2020 Hugo M. / hugomassarri.com. All rights reserved.</li>
+    <li><span>Website design and content Copyright &copy; 1999-2020 Hugo Massarri / hugomassarri.com.</span><span>All rights reserved.</span></li>
   </ul>
 </div>

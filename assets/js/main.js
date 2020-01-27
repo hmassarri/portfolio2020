@@ -96,7 +96,7 @@
 			});
 	*/
 	// Scrolly.
-	// $('.scrolly').scrolly();
+	$('.scrolly').scrolly();
 
 	// Header (narrower + mobile).
 
