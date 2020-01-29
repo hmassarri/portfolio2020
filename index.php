@@ -20,7 +20,7 @@
 		<!-- Intro -->
 		<section id="top" class="">
 			<div class="container">
-
+				<!--
 				<header>
 
 					<h2 class="alt">Hi!<br />I'm <strong>the Index Page of</strong> this site, which is a  responsive<br />
@@ -30,9 +30,9 @@
 				</header>
 
 				<footer>
-					<!-- <a href="#portfolio" class="button scrolly">Go straight to my work</a> -->
+					<a href="#portfolio" class="button scrolly">Go straight to my work</a>
 				</footer>
-
+				-->
 			</div>
 		</section>
 

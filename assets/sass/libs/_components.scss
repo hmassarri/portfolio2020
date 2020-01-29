@@ -12,9 +12,13 @@ $teal: lighten(#00BCD4, 3%);
 .card {
   width: 400px;
   height: auto;
-  background-color: $white;
+  background-color: $black;
   box-shadow: 1px 14px 10px 2px lighten($black, 50%);
   margin-bottom: 20px;
+
+  .item {
+    margin-bottom: 0;
+  }
 
   .card-title {
     align-self: center;
@@ -32,16 +36,20 @@ $teal: lighten(#00BCD4, 3%);
   }
 
   .card-footer {
-    background-color: $black;
+    //background-color: $black;
     height: auto;
     width: 100%;
     font-size: 1rem;
     color: darken($white, 40%);
     font-weight: 400;
     text-transform: uppercase;
+  }
 
-    &:hover {
-      background-color: $pink;
+  &:hover {
+    background-color: $pink;
+    color: $black !important;
+
+    .card-footer {
       color: $black;
     }
   }

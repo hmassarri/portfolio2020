@@ -17,6 +17,7 @@
 
 
 // Colors.
+
 $pink: #FF77A9;
 $white: #FFFFFF;
 $black: #000000;
@@ -27,6 +28,10 @@ $blue-purple: #3F51B5;
 $purple: darken(#6236FF, 3%);
 $red: #A61C1C;
 $teal: lighten(#00BCD4, 3%);
+
+.pink {	color: #FF77A9; }
+.white { color: #FFFFFF; }
+.black { color: #000000; }
 
 
 // Breakpoints.
@@ -384,9 +389,9 @@ $teal: lighten(#00BCD4, 3%);
 			width: 100%;
 		}
 
-		&.avatar48 {
-			width: 48px;
-			height: 48px;
+		&.avatar96 {
+			width: 96px;
+			height: 64px;
 
 			img {
 				height: auto;
@@ -682,7 +687,9 @@ $teal: lighten(#00BCD4, 3%);
 				@include vendor('transition', 'color 0.35s ease-in-out');
 
 				&:hover {
-					color: #fff;
+					//color: #fff;
+					//color: $teal;
+					color: $pink;
 				}
 			}
 		}
@@ -691,6 +698,7 @@ $teal: lighten(#00BCD4, 3%);
 	#logo {
 		position: relative;
 		margin: 1.75em 1.5em 1.5em 1.5em;
+		//margin: 2em 3em;
 		min-height: 48px;
 		cursor: default;
 
@@ -700,13 +708,14 @@ $teal: lighten(#00BCD4, 3%);
 			font-weight: 600;
 			font-size: 1em;
 			line-height: 1em;
+			padding-top: 8px;
 		}
 
 		p {
 			position: relative;
 			display: block;
 			font-size: 0.6em;
-			color: rgba(255, 255, 255, 0.5);
+			color: rgba(255, 255, 255, 100);
 			line-height: 1.25em;
 			margin: 0.5em 0 0 0;
 		}
@@ -715,7 +724,6 @@ $teal: lighten(#00BCD4, 3%);
 			position: absolute;
 			left: 0;
 			top: 0;
-			margin-top: -20px;
 		}
 	}
 
@@ -759,10 +767,12 @@ $teal: lighten(#00BCD4, 3%);
 						background: $black;
 						box-shadow: inset 0 0 0.25em 0 rgba(0, 0, 0, 0.125);
 						color: $pink;
+						//color: $teal;
 
 						span:before {
-							/* color: #e27689; */
+							//color: #e27689;
 							color: $pink;
+							//color: $teal;
 						}
 					}
 
@@ -780,9 +790,11 @@ $teal: lighten(#00BCD4, 3%);
 		background-color: $black;
 		padding: .5em 0 .5em 0;
 		box-shadow: inset 0 1px 0 0 rgba(0, 0, 0, 0.05), inset 0 0.1em 0.1em 0 rgba(0, 0, 0, 0.025);
-		font-size: 0.6em;
+		font-size: 0.5em;
 		color: lighten($black, 75%);
 		flex-shrink: 0;
+		font-weight: 500;
+		text-transform: lowercase;
 
 		.copyright {
 			cursor: default;

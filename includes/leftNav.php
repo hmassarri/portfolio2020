@@ -22,11 +22,11 @@
 
     <!-- Logo -->
     <div id="logo">
-      <span class="image avatar48"><img src="<?php echo $root ?>images/logo/logo-secondary.png" alt="Hugo M Logo" /></span>
-      <!--
-      <h1 id="title">Hugo Massarri</h1>
+      <span class="image avatar96"><img src="<?php echo $root ?>images/logo/logo-2.png" alt="Hugo M Logo" /></span>
+
+      <h1 id="title"><span class="pink">Hugo</span> Massarri</h1>
       <p>UIX Designer + Developer</p>
-      -->
+
     </div>
 
     <!-- Nav -->
