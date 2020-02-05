@@ -16,6 +16,12 @@ $teal: lighten(#00BCD4, 3%);
   box-shadow: 1px 14px 10px 2px lighten($black, 50%);
   margin-bottom: 20px;
 
+  h3 {
+    font-size: 1.75rem !important;
+    font-weight: 300 !important;
+    text-transform: uppercase !important;
+  }
+
   .item {
     margin-bottom: 0;
   }

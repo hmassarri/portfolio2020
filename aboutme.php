@@ -16,7 +16,6 @@
 
     <!-- About Me -->
     <section id="about" class="">
-      <div class="container">
 
         <header>
           <h2>About Me</h2>
@@ -31,7 +30,6 @@
           dolor. Libero rutrum ut lacinia donec curae mus vel quisque sociis nec
           ornare iaculis.</p>
 
-      </div>
     </section>
 
   </div>

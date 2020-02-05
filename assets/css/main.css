@@ -6,6 +6,10 @@
   background-color: #000000;
   box-shadow: 1px 14px 10px 2px gray;
   margin-bottom: 20px; }
+  .card h3 {
+    font-size: 1.75rem !important;
+    font-weight: 300 !important;
+    text-transform: uppercase !important; }
   .card .item {
     margin-bottom: 0; }
   .card .card-title {
@@ -218,7 +222,7 @@ a {
   transition: color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
   outline: 0; }
   a:hover {
-    color: #0091FF;
+    color: #FF77A9;
     border-bottom-color: rgba(255, 255, 255, 0); }
 
 sub {
@@ -1288,7 +1292,7 @@ button,
   -webkit-justify-content: space-between;
   -ms-justify-content: space-between;
   justify-content: space-between;
-  background: #222629 url("images/overlay.png");
+  background: #1A1E23 url("images/overlay.png");
   box-shadow: inset -0.25em 0 0.25em 0 rgba(0, 0, 0, 0.1);
   color: #fff;
   height: 100%;
@@ -1298,7 +1302,7 @@ button,
   text-align: right;
   top: 0;
   width: 375px;
-  border-right: 4px solid transparent;
+  border-right: 0px solid transparent;
   border-image: url("../../images/checkerboard-pink-small.png") 8 repeat; }
   #header .top {
     -moz-flex-grow: 1;
@@ -1420,6 +1424,16 @@ button,
     overflow: hidden;
     padding: 2em 0 4em 0;
     text-align: center; }
+    #main > section header h1 {
+      font-size: 4.5rem;
+      font-weight: 600; }
+    #main > section header h2 {
+      font-size: 3.75rem;
+      font-weight: 600; }
+    #main > section header h3 {
+      font-size: 2.5rem;
+      font-weight: 600;
+      text-transform: uppercase; }
     #main > section.dark {
       color: #ddd;
       color: rgba(255, 255, 255, 0.75); }
@@ -1453,10 +1467,13 @@ button,
       background-color: #ecf1f1; }
     #main > section.four {
       color: #FFFFFF;
-      background-color: #141414; }
+      background-color: #1A1E23; }
       #main > section.four h3 {
+        font-size: 2.5rem;
+        font-weight: 600;
         color: #FFFFFF;
-        margin-bottom: 40px; }
+        margin-bottom: 40px;
+        text-transform: uppercase; }
       #main > section.four p {
         margin-top: 40px; }
 
